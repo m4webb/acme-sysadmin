@@ -1,0 +1,2 @@
+A good reference to AD integration, though for rhel 6:
+https://access.redhat.com/sites/default/files/attachments/rhel-ad-integration-deployment-guidelines-v1.5.pdf

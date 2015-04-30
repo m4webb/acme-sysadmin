@@ -1,0 +1,8 @@
+Started with a minimal install of rhel-server 7.1
+Registered and subscribed the computer to redhat, using the user acmeadmin.byu.edu
+Enabled epel from the fedora project, which contains the salt-master package
+Enabled optional packages, which cointains python-jinja2, on which salt-master depends
+Installed salt-master, to remotely manage configuration of workstations (see saltstack.com)
+Installed httpd, webserver
+Enabled httpd,nfs,salt-master service
+Opened http, nfs, salt-master in firewall (edited /etc/firewalld/zones/public.xml)
