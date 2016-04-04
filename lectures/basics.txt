@@ -1,0 +1,18 @@
+Some of the fundamental tasks an acme sysadmin performs are:
+
+    - software installation
+    - software configuration
+    - hardware setup
+    - service management
+    - user management
+    - resource (cpu/ram/disk) management
+    - security
+
+Some of the tools an acme sysadmin uses are:
+
+    - package manager (yum, conda)
+    - configuration managment (salt)
+    - os installation (kickstart)
+    - service manager (systemd)
+    - firewall (firewalld)
+    - version control (git)
