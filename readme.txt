@@ -9,4 +9,4 @@ The software stack is
   Anaconda Python
   SaltStack
 
-The folder friedrich/ contains system files for the acme master server.
+The folder master/ contains system files for the acme master server.
