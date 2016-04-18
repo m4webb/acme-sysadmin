@@ -1,0 +1,16 @@
+ACME Workstation Bootstrap
+Version 2015-04-28
+
+1. Boot from Red Hat Linux 7 Workstation installable media.
+
+2. Press tab on the first option (normal install).
+
+3. Append the boot option: ks=http://10.18.32.52/bootstrap/acme-workstation-ks.php?hostname=<hostname>&rhn_user=acmeadmin.byu.edu&rhn_pass=a***acme2***
+
+4. Press enter to begin the installation.
+
+5. Once completed, reboot the machine and remove the installable media.
+
+6. On friedrich, as root accept the salt minion key: salt-key -a <hostname>
+
+7. On the workstation, as root update through salt: salt-call state.highstate
